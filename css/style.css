@@ -636,6 +636,9 @@ body {
   .block__wrapper {
     padding: 100px 0px 100px 0px;
   }
+  .block__wrapper_padding {
+    padding: 0px 0px 100px 0px;
+  }
   .block__row {
     flex-direction: column;
     text-align: center;
@@ -653,7 +656,6 @@ body {
     max-width: 800px;
   }
   .block__content_left {
-    margin-top: 70px;
     margin-left: 0px;
   }
 

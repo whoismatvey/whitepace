@@ -656,6 +656,10 @@ body {
         &__wrapper {
             padding: 100px 0px 100px 0px;
         }
+
+        &__wrapper_padding {
+            padding: 0px 0px 100px 0px;
+        }
     
         &__row {
             flex-direction: column;
@@ -677,9 +681,7 @@ body {
             max-width: 800px;
         }
     
-
         &__content_left {
-            margin-top: 70px;
             margin-left: 0px;
         }
     }
