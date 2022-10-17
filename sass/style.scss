@@ -658,7 +658,7 @@ body {
         }
 
         &__wrapper_padding {
-            padding: 0px 0px 100px 0px;
+            padding: 100px 0px 0px 0px;
         }
     
         &__row {
@@ -685,6 +685,7 @@ body {
             margin-left: 0px;
         }
     }
+    
 
     .pricing {
         &__wrapper {
@@ -700,6 +701,10 @@ body {
     }
 
     .slogan {
+        &__wrapper {
+            padding: 100px 0px;
+        }
+        
         &__title {
             font-size: 54px;
             line-height: 120%;
@@ -712,6 +717,10 @@ body {
     }
 
     .sponsors {
+        &__wrapper {
+            padding: 100px 0px;
+        }
+
         &__title {
             font-size: 54px;
             line-height: 120%;
@@ -775,6 +784,9 @@ body {
         margin-top: 60px;
         display: grid;
         grid-template-columns: 1fr;
+    }
+    .home__wrapper {
+        padding: 100px 0px 100px 0px;
     }
 }
 

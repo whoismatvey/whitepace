@@ -637,7 +637,7 @@ body {
     padding: 100px 0px 100px 0px;
   }
   .block__wrapper_padding {
-    padding: 0px 0px 100px 0px;
+    padding: 100px 0px 0px 0px;
   }
   .block__row {
     flex-direction: column;
@@ -667,6 +667,9 @@ body {
     line-height: 120%;
   }
 
+  .slogan__wrapper {
+    padding: 100px 0px;
+  }
   .slogan__title {
     font-size: 54px;
     line-height: 120%;
@@ -676,6 +679,9 @@ body {
     text-align: left;
   }
 
+  .sponsors__wrapper {
+    padding: 100px 0px;
+  }
   .sponsors__title {
     font-size: 54px;
     line-height: 120%;
@@ -725,5 +731,9 @@ body {
     margin-top: 60px;
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .home__wrapper {
+    padding: 100px 0px 100px 0px;
   }
 }
