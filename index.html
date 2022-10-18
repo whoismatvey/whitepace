@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WhiteSpace</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,10 +14,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-    <!--CSS-->
-    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="mobile">
+        <div class="mobile__logo">
+            <img src="./img/icon/blue-logo.svg" alt="Logo">
+        </div>
+        <nav class="mobile__nav">
+            <ul class="mobile__list">
+                <li class="mobile__link"><a href="#">Products</a></li>
+                <li class="mobile__link"><a href="#">Solutions</a></li>
+                <li class="mobile__link"><a href="#">Resources</a></li>
+                <li class="mobile__link"><a href="#">Pricing</a></li>
+            </ul>
+        </nav>
+        <div class="mobile__login">
+            <button class="mobile__sign">Login</button>
+            <button class="mobile__trial">Start Trial<img src="img/icon/arrow-r.svg" alt=""></button>
+        </div>
+    </div>
+
     <header class="header">
         <div class="container">
             <div class="header__row">
@@ -214,7 +232,7 @@
         </section>
 
         <section class="block">
-            <div class="block__wrapper">
+            <div class="block__wrapper block__wrapper_padding">
                 <div class="container">
                     <div class="block__row mobile-reverse">
                         <div class="block__content">
@@ -333,5 +351,9 @@
             </div>
         </section>
     </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
