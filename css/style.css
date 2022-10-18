@@ -598,7 +598,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 16px 36px;
+  padding: 16px 33px;
   gap: 10px;
   background: #4F9CF9;
   border-radius: 8px;
@@ -797,7 +797,7 @@ body {
     margin-bottom: 0;
   }
   .header__logo img {
-    width: 80%;
+    width: 92%;
   }
 
   .home__wrapper {
