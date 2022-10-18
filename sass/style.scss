@@ -858,6 +858,14 @@ body {
         display: grid;
         grid-template-columns: 1fr;
     }
+
+    .header__logo {
+        margin-bottom: 0;
+        img {
+            width: 80%;
+        }
+    }
+
     .home__wrapper {
         padding: 100px 0px 100px 0px;
     }
