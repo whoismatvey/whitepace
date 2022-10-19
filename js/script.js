@@ -8,29 +8,27 @@ mobileNavButton.addEventListener('click', function () {
 	document.body.classList.toggle('no-scroll');
 });
 
-
-$(document).ready(function(){
-	$('.slider').slick({
-		arrows:true,
-		dots:true,
-		slidesToShow:2,
-		autoplay:true,
-		speed:1000,
-		autoplaySpeed:800,
-		variableWidth: true,
-		responsive:[
-			{
-				breakpoint: 768,
-				settings: {
-					slidesToShow:2
-				}
-			},
-			{
-				breakpoint: 550,
-				settings: {
-					slidesToShow:1
-				}
-			}
-		]
-	});
-});
+var swiper = new Swiper(".mySwiper", {
+	spaceBetween: 30,
+	slidesPerView: 1,
+	slidesPerGroup: 2,
+	pagination: {
+	  el: ".swiper-pagination",
+	},
+	breakpoints: {
+	  699: {
+		slidesPerView: 2,
+		spaceBetween: 20
+	  },
+	  999: {
+		slidesPerGroup: 1,
+		slidesPerView: 3,
+		spaceBetween: 20
+	  }
+	},
+	mousewheel: true,
+	autoplay: {
+		delay: 5000,
+	  },
+	keyboard: true,
+  });

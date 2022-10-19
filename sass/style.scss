@@ -396,6 +396,7 @@ body {
         font-size: 70px;
         line-height: 120%;
         text-align: center;
+        margin-bottom: 60px;
     }
 
     &__clinets {
@@ -423,42 +424,62 @@ body {
             padding-right: 0px;
         }
     }
+}
 
-    .client {
-        padding: 60px 40px;
-        box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
-        border-radius: 10px;
-        &__text {
-            line-height: 167%;
-            margin: 32px 0px 0px 0px;
-        }
+.swiper{
+    max-width: 1430px;
+    height: 100%;
+  }
+  .swiper-slide{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .client {
+      padding: 60px 40px;
+      box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+  }
+  .client__text {
+      line-height: 167%;
+              margin: 32px 0px 0px 0px;
+  }
+  .client__line {
+      margin: 50px 0px;
+      max-width: 100%;
+      border-bottom: 1px solid #212529;
+  }
+  .client__row {
+      display: flex;
+      align-items: center;
+  }
+  .client__desc {
+      margin-left: 42px;
+  }
+  .client__name {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 150%;
+  }
+  .client__location {
+      font-size: 16px;
+      line-height: 125%;
+  }
+  
+  
+  .swiper-pagination-bullet {
+      width: 14px !important;
+      height: 14px !important;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #043873 !important;
+}
 
-        &__line {
-            margin: 50px 0px;
-            max-width: 100%;
-            border-bottom: 1px solid #212529;
-        }
-
-        &__row {
-            display: flex;
-            align-items: center;
-        }
-
-        &__desc {
-            margin-left: 42px;
-        }
-
-        &__name {
-            font-weight: 600;
-            font-size: 24px;
-            line-height: 150%;
-        }
-
-        &__location {
-            font-size: 16px;
-            line-height: 125%;
-        }
-    }
+  .reviews .client {
+    margin-bottom: 60px;
 }
 
 .free {
@@ -628,6 +649,10 @@ body {
         line-height: 128%;
         color: #FFFFFF;
     }
+}
+
+.slide {
+    max-width: 300px;
 }
 
 @media(max-width: 1469px) {
