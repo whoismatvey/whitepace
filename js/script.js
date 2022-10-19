@@ -11,7 +11,7 @@ mobileNavButton.addEventListener('click', function () {
 var swiper = new Swiper(".mySwiper", {
 	spaceBetween: 30,
 	slidesPerView: 1,
-	slidesPerGroup: 2,
+	speed: 1000,
 	pagination: {
 	  el: ".swiper-pagination",
 	},
@@ -21,7 +21,6 @@ var swiper = new Swiper(".mySwiper", {
 		spaceBetween: 20
 	  },
 	  999: {
-		slidesPerGroup: 1,
 		slidesPerView: 3,
 		spaceBetween: 20
 	  }
