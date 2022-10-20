@@ -14,6 +14,7 @@ var swiper = new Swiper(".mySwiper", {
 	speed: 1000,
 	pagination: {
 	  el: ".swiper-pagination",
+	  clickable: true,
 	},
 	breakpoints: {
 	  699: {
